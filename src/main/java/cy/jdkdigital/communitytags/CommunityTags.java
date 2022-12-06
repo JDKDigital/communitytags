@@ -24,21 +24,52 @@ public class CommunityTags
     static public class Items {
         private static void init(){}
 
+        public static final TagKey<Item> APPLES = tag("apples");
+        public static final TagKey<Item> BERRIES = tag("berries");
+        public static final TagKey<Item> BERRIES_SWEETBERRIES = tag("berries/sweetberries");
+        public static final TagKey<Item> BERRIES_GLOWBERRIES = tag("berries/glowberries");
         public static final TagKey<Item> BOOKS = tag("books");
+        public static final TagKey<Item> BREAD = tag("bread");
+        public static final TagKey<Item> BREAD_WHEAT = tag("bread/wheat");
         public static final TagKey<Item> BUCKETS = tag("buckets");
         public static final TagKey<Item> BUCKETS_HONEY = tag("buckets/honey");
         public static final TagKey<Item> COINS = tag("coins");
         public static final TagKey<Item> COINS_COPPER = tag("coins/copper");
+        public static final TagKey<Item> DOUGH = tag("dough");
+        public static final TagKey<Item> DOUGH_WHEAT = tag("dough/wheat");
+        public static final TagKey<Item> FRUITS = tag("fruits");
+        public static final TagKey<Item> FRUITS_APPLE = tag("fruits/apple");
+        public static final TagKey<Item> FRUITS_CHORUSFRUIT = tag("fruits/chorusfruit");
+        public static final TagKey<Item> FRUITS_MELON = tag("fruits/melon");
+        public static final TagKey<Item> FRUITS_SWEETBERRIES = tag("fruits/sweetberries");
+        public static final TagKey<Item> GRAIN = tag("grain");
+        public static final TagKey<Item> GRAIN_BARLEY = tag("grain/barley");
+        public static final TagKey<Item> GRAIN_CORN = tag("grain/corn");
+        public static final TagKey<Item> GRAIN_OAT = tag("grain/oat");
+        public static final TagKey<Item> GRAIN_RICE = tag("grain/rice");
+        public static final TagKey<Item> GRAIN_WHEAT = tag("grain/wheat");
         public static final TagKey<Item> HONEYCOMBS = tag("honeycombs");
         public static final TagKey<Item> HONEY_BOTTLES = tag("honey_bottles");
         public static final TagKey<Item> HONEY_BLOCKS = tag("honey_blocks");
+        public static final TagKey<Item> MILK = tag("milk");
+        public static final TagKey<Item> MILK_MILK = tag("milk/milk");
+        public static final TagKey<Item> MILK_FRESHMLIK = tag("milk/freshmilk");
+        public static final TagKey<Item> MILK_MILK_BOTTLE = tag("milk/milk_bottle");
         public static final TagKey<Item> MUSHROOMS = tag("mushrooms");
         public static final TagKey<Item> MUSHROOMS_OVERWORLD = tag("mushrooms/overworld");
         public static final TagKey<Item> MUSHROOMS_NETHER = tag("mushrooms/nether");
         public static final TagKey<Item> MUSHROOMS_END = tag("mushrooms/end");
         public static final TagKey<Item> POLLEN = tag("pollen");
+        public static final TagKey<Item> SALT = tag("salt");
         public static final TagKey<Item> STORAGE_BLOCKS_HONEYCOMBS = tag("storage_blocks/honeycombs");
         public static final TagKey<Item> STORAGE_BLOCKS_WAX = tag("storage_blocks/wax");
+        public static final TagKey<Item> VEGETABLES = tag("vegetables");
+        public static final TagKey<Item> VEGETABLES_BEETROOT = tag("vegetables/beetroot");
+        public static final TagKey<Item> VEGETABLES_CARROT = tag("vegetables/carrot");
+        public static final TagKey<Item> VEGETABLES_CUCUMBER = tag("vegetables/cucumber");
+        public static final TagKey<Item> VEGETABLES_ONION = tag("vegetables/onion");
+        public static final TagKey<Item> VEGETABLES_POTATO = tag("vegetables/potato");
+        public static final TagKey<Item> VEGETABLES_TOMATO = tag("vegetables/tomato");
         public static final TagKey<Item> WAX = tag("wax");
 
         private static TagKey<Item> tag(String name) {
