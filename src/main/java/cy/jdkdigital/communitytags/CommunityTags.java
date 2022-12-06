@@ -35,6 +35,18 @@ public class CommunityTags
         public static final TagKey<Item> BUCKETS_HONEY = tag("buckets/honey");
         public static final TagKey<Item> COINS = tag("coins");
         public static final TagKey<Item> COINS_COPPER = tag("coins/copper");
+        public static final TagKey<Item> COOKED_BACON = tag("cooked_bacon");
+        public static final TagKey<Item> COOKED_BEEF = tag("cooked_beef");
+        public static final TagKey<Item> COOKED_CHICKEN = tag("cooked_chicken");
+        public static final TagKey<Item> COOKED_FISHES = tag("cooked_fishes");
+        public static final TagKey<Item> COOKED_FISHES_COD = tag("cooked_fishes/cod");
+        public static final TagKey<Item> COOKED_FISHES_SALMON = tag("cooked_fishes/salmon");
+        public static final TagKey<Item> COOKED_MEATS = tag("cooked_meats");
+        public static final TagKey<Item> COOKED_MUTTON = tag("cooked_mutton");
+        public static final TagKey<Item> COOKED_PORK = tag("cooked_pork");
+        public static final TagKey<Item> COOKED_POULTRY = tag("cooked_poultry");
+        public static final TagKey<Item> COOKED_RABBIT = tag("cooked_rabbit");
+        public static final TagKey<Item> COOKED_VENISON = tag("cooked_venison");
         public static final TagKey<Item> DOUGH = tag("dough");
         public static final TagKey<Item> DOUGH_WHEAT = tag("dough/wheat");
         public static final TagKey<Item> FRUITS = tag("fruits");
@@ -60,6 +72,19 @@ public class CommunityTags
         public static final TagKey<Item> MUSHROOMS_NETHER = tag("mushrooms/nether");
         public static final TagKey<Item> MUSHROOMS_END = tag("mushrooms/end");
         public static final TagKey<Item> POLLEN = tag("pollen");
+        public static final TagKey<Item> RAW_BACON = tag("raw_bacon");
+        public static final TagKey<Item> RAW_BEEF = tag("raw_beef");
+        public static final TagKey<Item> RAW_CHICKEN = tag("raw_chicken");
+        public static final TagKey<Item> RAW_FISHES = tag("raw_fishes");
+        public static final TagKey<Item> RAW_FISHES_COD = tag("raw_fishes/cod");
+        public static final TagKey<Item> RAW_FISHES_SALMON = tag("raw_fishes/salmon");
+        public static final TagKey<Item> RAW_FISHES_TROPICAL_FISH = tag("raw_fishes/tropical_fish");
+        public static final TagKey<Item> RAW_MEATS = tag("raw_meats");
+        public static final TagKey<Item> RAW_MUTTON = tag("raw_mutton");
+        public static final TagKey<Item> RAW_PORK = tag("raw_pork");
+        public static final TagKey<Item> RAW_POULTRY = tag("raw_poultry");
+        public static final TagKey<Item> RAW_RABBIT = tag("raw_rabbit");
+        public static final TagKey<Item> RAW_VENISON = tag("raw_venison");
         public static final TagKey<Item> SALT = tag("salt");
         public static final TagKey<Item> STORAGE_BLOCKS_HONEYCOMBS = tag("storage_blocks/honeycombs");
         public static final TagKey<Item> STORAGE_BLOCKS_WAX = tag("storage_blocks/wax");
@@ -70,6 +95,8 @@ public class CommunityTags
         public static final TagKey<Item> VEGETABLES_ONION = tag("vegetables/onion");
         public static final TagKey<Item> VEGETABLES_POTATO = tag("vegetables/potato");
         public static final TagKey<Item> VEGETABLES_TOMATO = tag("vegetables/tomato");
+        public static final TagKey<Item> VINEGAR = tag("vinegar");
+        public static final TagKey<Item> VINEGAR_GRAPE = tag("vinegar/grape");
         public static final TagKey<Item> WAX = tag("wax");
 
         private static TagKey<Item> tag(String name) {
